@@ -1,0 +1,266 @@
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding : 10px
+}
+
+@media (max-width: 412px) {
+  .top-right {
+    /* Positioning for Customer Care icon */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+}
+.top-right {
+    /* Positioning for Customer Care icon */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .center-logo{
+    padding-bottom: 50px;
+  }
+
+
+  @media (max-width: 390px) {
+    .employee-productivity-container {
+      /* Styles for employee productivity section */
+      width: 360px;
+      height: 465px;
+      border-radius: 25px;
+      padding-right:85px;
+      margin-left: 45px;
+      background: #00f2f299 0% 0% no-repeat padding-box;
+      mix-blend-mode: normal;
+      opacity: 1;
+      
+
+    }
+
+  }
+
+
+
+  @media (max-width: 412px) {
+    .employee-productivity-container {
+      /* Styles for employee productivity section */
+      width: 360px;
+      height: 465px;
+      border-radius: 25px;
+      margin-right:35px;
+      padding: 25px;
+      background: #1A2C2C99 0% 0% no-repeat padding-box;
+      mix-blend-mode: normal;
+      opacity: 1;
+
+    }
+
+  }
+  
+  .employee-productivity-container {
+    /* Styles for employee productivity section */
+    width: auto;
+    height: 465px;
+    border-radius: 25px;
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+  h2{
+    padding : 10px;
+    height: 32px;
+    text-align: center;
+    border-radius: 25px;
+    font: normal normal lighter 18px/25px Source Sans Pro;
+    letter-spacing: 0.01px;
+    color: #FFFFFFB3;
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+  .bar-text{
+    text-align: left;
+    font: normal normal normal 12px/16px Mulish;
+    letter-spacing: 0.01px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 10px;
+  }
+  
+  /* Styles for productivity bars and percentage */
+  .productivity-bars {
+    /* Flex or grid layout to arrange bars */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bar-container {
+    /* Styles for each day's bar container */
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .progressive-bar-mon{
+    /* Styles for the bars (using width to represent productivity) */
+    max-width: 20%;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
+  }
+
+  .progressive-bar-tue{
+    /* Styles for the bars (using width to represent productivity) */
+    max-width: 60%;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
+  }
+  .progressive-bar-wed{
+    /* Styles for the bars (using width to represent productivity) */
+    max-width: 4%;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
+  }
+  .progressive-bar-thu{
+    /* Styles for the bars (using width to represent productivity) */
+    max-width: 84%;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
+  }
+  .progressive-bar-fri{
+    /* Styles for the bars (using width to represent productivity) */
+    max-width: 98%;
+    height: 11px;
+    border-radius: 25px;
+    background: #36A54680 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 1px solid #36A546;
+    opacity: 1;
+  }
+
+  
+  .percentage{
+    /* Styles for percentage display */
+    width: 180px;
+    padding: 10px;
+    text-align: right;
+    font: normal normal normal 14px/19px Mulish;
+    letter-spacing: 0.01px;
+    color: #36A546;
+    opacity: 1;
+  }
+  
+  .bottom-options {
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: initial;
+    height: 63px;
+    border-radius: 18px;
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+
+  @media (max-width: 412px) {
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0;
+        width: auto;
+      
+    }
+
+    .bottom-options {
+      padding-top: 60px;
+      padding:10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100vh;
+      height: 63px;
+      border-radius: 25px;
+      background: #1A2C2C99 0% 0% no-repeat padding-box;
+      mix-blend-mode: normal;
+      opacity: 1;
+    }
+
+    
+  }
+
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    width: -webkit-fill-available;
+    margin-top: 20px;
+  }
+  .home-icon{    
+  }
+  
+  .user-icon{
+    padding-top: 3px;
+  }
+
+  @media (max-width: 412px) {
+    .bottom-options {
+        padding-top: 60px;
+        padding:10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: auto;
+        height: 63px;
+        border-radius: 25px;
+        background: #1A2C2C99 0% 0% no-repeat padding-box;
+        mix-blend-mode: normal;
+        opacity: 1;
+      }
+  }
+
+  .view-button{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-left: 55px;
+  }
+
+  @media (max-width: 390px) {
+    .bottom-options {
+        padding-top: 60px;
+        padding:10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: auto;
+        height: 63px;
+        border-radius: 25px;
+        background: #1A2C2C99 0% 0% no-repeat padding-box;
+        mix-blend-mode: normal;
+        opacity: 1;
+      }
+  }

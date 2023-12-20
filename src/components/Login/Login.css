@@ -1,0 +1,73 @@
+.login-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+   .electric-text{
+    text-align: center;
+    font-weight: lighter;
+    font: sans-serif normal 16px/21px Mulish;
+    letter-spacing: 0.02px;
+    color: #36A546CC;
+    opacity: 1;
+   }
+  
+  .logo img {
+    width: 90px;
+    height: 90px;
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    color:aliceblue;
+  }
+  
+  input {
+    padding: 10px;
+    width: 238px;
+    height: 24px;
+    color: aliceblue;
+    border: 1px solid #7a1818;
+    border-radius: 20px;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+  
+  button {
+    padding: 10px;
+    width: 238px;
+    height: 42px;
+    border: 1px solid #7a1818;
+    border-radius: 20px;
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 2px solid #8CFF0026;
+    opacity: 1;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    font: normal normal normal 15px/20px Mulish;
+    letter-spacing: 0.02px;
+    color: #36A546;
+    opacity: 1;
+  }
+  

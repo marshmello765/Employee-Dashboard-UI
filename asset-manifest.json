@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/marshmello765/Employee-Dashboard-UI/tree/Employee-Dashboard-UI/static/css/main.aed50777.css",
+    "main.js": "/marshmello765/Employee-Dashboard-UI/tree/Employee-Dashboard-UI/static/js/main.b2f3a9ce.js",
+    "static/js/787.4e46645d.chunk.js": "/marshmello765/Employee-Dashboard-UI/tree/Employee-Dashboard-UI/static/js/787.4e46645d.chunk.js",
+    "index.html": "/marshmello765/Employee-Dashboard-UI/tree/Employee-Dashboard-UI/index.html",
+    "main.aed50777.css.map": "/marshmello765/Employee-Dashboard-UI/tree/Employee-Dashboard-UI/static/css/main.aed50777.css.map",
+    "main.b2f3a9ce.js.map": "/marshmello765/Employee-Dashboard-UI/tree/Employee-Dashboard-UI/static/js/main.b2f3a9ce.js.map",
+    "787.4e46645d.chunk.js.map": "/marshmello765/Employee-Dashboard-UI/tree/Employee-Dashboard-UI/static/js/787.4e46645d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed50777.css",
+    "static/js/main.b2f3a9ce.js"
+  ]
+}
